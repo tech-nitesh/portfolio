@@ -174,7 +174,7 @@
                 <div class="flex justify-center flex-wrap gap-2 md:gap-4 mb-12">
                     <button @click="filter = 'all'" :class="{ 'bg-accent text-white': filter === 'all', 'bg-gray-200 text-gray-700': filter !== 'all' }" class="px-6 py-2 rounded-full font-medium transition-colors">All</button>
                     <button @click="filter = 'logos'" :class="{ 'bg-accent text-white': filter === 'logos', 'bg-gray-200 text-gray-700': filter !== 'logos' }" class="px-6 py-2 rounded-full font-medium transition-colors">Logos</button>
-                    <button @click="filter = 'videos'" :class="{ 'bg-accent text-white': filter === 'videos', 'bg-gray-200 text-gray-700': filter !== 'videos' }" class="px-6 py-2 rounded-full font-medium transition-colors">Videos</button>
+                    <button @click="filter = 'thumbnails'" :class="{ 'bg-accent text-white': filter === 'Thumbnail', 'bg-gray-200 text-gray-700': filter !== 'Thumbnail' }" class="px-6 py-2 rounded-full font-medium transition-colors">thumbnails</button>
                     <button @click="filter = 'ai-art'" :class="{ 'bg-accent text-white': filter === 'ai-art', 'bg-gray-200 text-gray-700': filter !== 'ai-art' }" class="px-6 py-2 rounded-full font-medium transition-colors">AI Art</button>
                     <button @click="filter = 'posters'" :class="{ 'bg-accent text-white': filter === 'posters', 'bg-gray-200 text-gray-700': filter !== 'posters' }" class="px-6 py-2 rounded-full font-medium transition-colors">Posters</button>
                 </div>
@@ -183,27 +183,27 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Item 1: Logo -->
                     <div class="portfolio-item rounded-lg overflow-hidden" x-show="filter === 'all' || filter === 'logos'" x-transition>
-                        <img src="https://placehold.co/600x400/8B5CF6/FFFFFF?text=Zenith+Fitness+Logo" alt="Zenith Fitness Logo" class="w-full h-auto object-cover">
+                        <img src="https://cdn.kwork.com/pics/t3/95/34999271-66b51abf5477c.jpg" alt="Zenith Fitness Logo" class="w-full h-auto object-cover">
                     </div>
-                    <!-- Item 2: Video -->
-                    <div class="portfolio-item rounded-lg overflow-hidden" x-show="filter === 'all' || filter === 'videos'" x-transition>
-                        <img src="https://placehold.co/600x400/6D28D9/FFFFFF?text=Travel+Reel:+Bali" alt="Travel Reel Thumbnail" class="w-full h-auto object-cover">
+                    <!-- Item 2: Thumbnail -->
+                    <div class="portfolio-item rounded-lg overflow-hidden" x-show="filter === 'all' || filter === 'thumbnails'" x-transition>
+                        <img src="https://i.pinimg.com/736x/8e/39/5b/8e395b91f958a965371340256162ea37.jpg" alt="Travel Reel Thumbnail" class="w-full h-auto object-cover">
                     </div>
                     <!-- Item 3: AI Art -->
                     <div class="portfolio-item rounded-lg overflow-hidden" x-show="filter === 'all' || filter === 'ai-art'" x-transition>
-                        <img src="https://placehold.co/600x400/A78BFA/FFFFFF?text=AI+Art:+Cyberpunk+City" alt="AI Generated Cyberpunk City" class="w-full h-auto object-cover">
+                        <img src="https://i.etsystatic.com/39466206/r/il/595fc8/4793692003/il_fullxfull.4793692003_h6ss.jpg" alt="AI Generated Cyberpunk City" class="w-full h-auto object-cover">
                     </div>
                     <!-- Item 4: Poster -->
                     <div class="portfolio-item rounded-lg overflow-hidden" x-show="filter === 'all' || filter === 'posters'" x-transition>
-                        <img src="https://placehold.co/600x400/8B5CF6/FFFFFF?text=Summer+Music+Fest+Poster" alt="Summer Music Festival Poster" class="w-full h-auto object-cover">
+                        <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/346331027/original/0b7ce8d9b3f6e2ae39aee924ff89410d7654fda7/design-professional-posters-film-poster-and-movie-poster.jpg" alt="Summer Music Festival Poster" class="w-full h-auto object-cover">
                     </div>
-                     <!-- Item 5: Video -->
-                    <div class="portfolio-item rounded-lg overflow-hidden" x-show="filter === 'all' || filter === 'videos'" x-transition>
-                        <img src="https://placehold.co/600x400/6D28D9/FFFFFF?text=Nova+Smartwatch+Ad" alt="Nova Smartwatch Ad Thumbnail" class="w-full h-auto object-cover">
+                     <!-- Item 5: Thumbnail -->
+                    <div class="portfolio-item rounded-lg overflow-hidden" x-show="filter === 'all' || filter === 'thumbnails'" x-transition>
+                        <img src="https://louisem.com/wp-content/uploads/2017/07/youtube-thumbnail-templates.jpg" alt="Nova Smartwatch Ad Thumbnail" class="w-full h-auto object-cover">
                     </div>
                     <!-- Item 6: Logo -->
                     <div class="portfolio-item rounded-lg overflow-hidden" x-show="filter === 'all' || filter === 'logos'" x-transition>
-                        <img src="https://placehold.co/600x400/A78BFA/FFFFFF?text=Bloom+Cafe+Logo" alt="Bloom Cafe Logo" class="w-full h-auto object-cover">
+                        <img src="https://logodezine.com/wp-content/uploads/2024/07/startup-company-logo-design.jpg" alt="Bloom Cafe Logo" class="w-full h-auto object-cover">
                     </div>
                 </div>
             </div>
